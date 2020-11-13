@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/raices_convencional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/modelo/raices_convencional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/raices_optimizadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/modelo/raices_optimizadas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/tests_raices_convencional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_convencional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/tests_raices_optimizadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_optimizadas.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kFVEoVGcG0by6wWRLPBI21etgV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicio2calculadora" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo" />
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tests_raices_optimizadas (1)">
+    <configuration name="raices_convencional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio2calculadora" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo\raices_convencional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="raices_optimizadas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio2calculadora" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo\raices_optimizadas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_raices_convencional (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio2calculadora/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_convencional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_raices_convencional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio2calculadora" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\tests\tests_raices_convencional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_raices_optimizadas (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tp1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio2calculadora/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_optimizadas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests_raices_optimizadas (1)" />
+        <item itemvalue="Python.tests_raices_convencional (1)" />
+        <item itemvalue="Python.tests_raices_convencional" />
+        <item itemvalue="Python.raices_optimizadas" />
+        <item itemvalue="Python.raices_convencional" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1605297940500">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1605297940500" />
+    <state x="421" y="188" key="#Notifications" timestamp="1605298620951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="421" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605298620951" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1605300040034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605300040034" />
+    <state width="1345" height="69" key="GridCell.Tab.0.bottom" timestamp="1605300041136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="69" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
+    <state width="1345" height="69" key="GridCell.Tab.0.center" timestamp="1605300041136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="69" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
+    <state width="1345" height="69" key="GridCell.Tab.0.left" timestamp="1605300041135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="69" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605300041135" />
+    <state width="1345" height="69" key="GridCell.Tab.0.right" timestamp="1605300041136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="69" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1605299208589">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605299208589" />
+  </component>
+</project>
