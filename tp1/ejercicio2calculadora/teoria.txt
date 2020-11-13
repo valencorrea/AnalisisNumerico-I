@@ -1,0 +1,39 @@
+### (e) ¿Se justifica conseguir los componentes que nos permitan aumentar a 64 bits con el algoritmo del primer item? ###
+
+En primer lugar, el algoritmo de la busqueda de raices sin logica adicional, tiene la desventaja de no calcular 
+correctamente lo que necesitamos en el caso en donde b^2 es mucho mayor a 4ac, ya que obtendriamos un numerador 
+que tiende a 0. En esta situacion los resultados no son los esperados, con lo cual, invertir mucho mas en
+algo no tan eficiente podria no ser la mejor decision.
+
+
+
+
+### (f) ¿Se justifica conseguir los componentes que nos permitan reducir a 16 bits con el algoritmo del segundo item? ###
+
+Si para el uso que se le va a dar al programa, no son necesarias las 7 cifras significativas que otorgan los 32 bits,
+y con las 3 asociadas a los 16 bits son suficientes, seria una buena decision abaratar los costos. Por otro lado, el
+producto tampoco va a perder calidad en la situacion borde anteriormente mencionada, ya que se tiene en cuenta en su 
+logica al momento del calculo
+
+
+
+
+### Detalles de implementacion ###
+
+	- Mas alla de que el enunciado pedia programar un algoritmo para la busqueda de raices 'reales', consideramos
+el caso en donde se ingresen los parametros que conllevan a obtener una raiz negativa, para asegurarnos de trabajar 
+con datos validos. En este caso se vio conveniente lanzar excepcion
+
+	- Mas alla de que el enunciado pedia la busqueda de raices de un polinomio de grado 2, consideramos el caso en 
+donde a sea igual a 0, para asegurarnos de no llegar al punto de realizar una division por 0. En este caso se vio 
+conveniente lanzar excepcion
+
+	- Al momento de considerar que formulas hacen romper la busqueda de raices del polinomio, se llego a la conslucion
+de que para un b^2 >> 4ac se necesita utilizar:
+	
+		· x_1 = (-2 * c) / ( b + sqrt(b^2 - (4ac) ) 
+		· x_2 = -b - sqrt(b^2 - (4ac) ) ) / 2a
+	
+	dado que estas expresiones de ambas raices son validas tanto para un b muy grande como para el caso contrario, se
+decidio utilizarlas para el caso general ya que no presenta inconvenientes
+	
