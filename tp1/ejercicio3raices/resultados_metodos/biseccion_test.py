@@ -1,5 +1,6 @@
 import numpy as np
-import biseccion as bi
+from item_d import biseccion as bi
+
 
 def funcion(x):
 

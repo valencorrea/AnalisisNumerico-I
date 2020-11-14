@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/raices_convencional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/modelo/raices_convencional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/raices_optimizadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/modelo/raices_optimizadas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/tests_raices_convencional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_convencional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio2calculadora/tests_raices_optimizadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_optimizadas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tp1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="751b23ed-7978-4010-83bc-5932c29fcc30" />
   <component name="ProjectId" id="1kFVEoVGcG0by6wWRLPBI21etgV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +51,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicio2calculadora" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -70,6 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo\raices_convencional.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -91,6 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo\raices_optimizadas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -112,6 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_convencional.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -133,6 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\tests\tests_raices_convencional.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -154,6 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio2calculadora/tests/tests_raices_optimizadas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -174,6 +186,20 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="" />
+      <created>1605319724129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605319724129</updated>
+      <workItem from="1605319727139" duration="502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -195,29 +221,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="421" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605298620951" />
-    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1605300040034">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="346" y="118" key="FileChooserDialogImpl" timestamp="1605320234012">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state x="346" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1605320234012" />
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605300040034" />
-    <state width="1345" height="69" key="GridCell.Tab.0.bottom" timestamp="1605300041136">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="123" key="GridCell.Tab.0.bottom" timestamp="1605320235273">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="981" height="123" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1605320235273" />
     <state width="1345" height="69" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
-    <state width="1345" height="69" key="GridCell.Tab.0.center" timestamp="1605300041136">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="123" key="GridCell.Tab.0.center" timestamp="1605320235273">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="981" height="123" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1605320235273" />
     <state width="1345" height="69" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
-    <state width="1345" height="69" key="GridCell.Tab.0.left" timestamp="1605300041135">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="123" key="GridCell.Tab.0.left" timestamp="1605320235273">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="981" height="123" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1605320235273" />
     <state width="1345" height="69" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605300041135" />
-    <state width="1345" height="69" key="GridCell.Tab.0.right" timestamp="1605300041136">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="123" key="GridCell.Tab.0.right" timestamp="1605320235273">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state width="981" height="123" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1605320235273" />
     <state width="1345" height="69" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605300041136" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605299208589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605299208589" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tp1$tests_raices_optimizadas__1_.coverage" NAME="tests_raices_optimizadas (1) Coverage Results" MODIFIED="1605320045555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejercicio2calculadora/tests" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 import numpy as np
-import biseccion as bi
+from item_d import biseccion as bi
+
 
 def raiz(f, derivada, derivada_segunda, a, b, tolerancia, iteraciones):
     biseccion = bi.raiz(f, a, b, tolerancia, 2)

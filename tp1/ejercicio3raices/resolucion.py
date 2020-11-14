@@ -1,11 +1,7 @@
-import matplotlib.pyplot as plt
 import analisis_problema_fisico as analisis
 
-import biseccion as bi
-import punto_fijo as pf
-import newton_raphson as nr
-import secante as se
-import newton_raphson_modificado as nrm
+from item_d import secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, biseccion as bi
+
 
 def f(x, subir_eje):
     return analisis.v(x) - (analisis.v(2*4.25) * subir_eje)
@@ -35,14 +31,14 @@ for i in range(1, 8):
     dx.append(i)
     dy.append(analisis.derivada(i))
 
-x1.append(2*4.25)
-y1.append(f1(2*4.25))
+x1.append(2 * 4.25)
+y1.append(f1(2 * 4.25))
 
-x2.append(2*4.25)
-y2.append(f2(2*4.25))
+x2.append(2 * 4.25)
+y2.append(f2(2 * 4.25))
 
-dx.append(2*4.25)
-dy.append(analisis.derivada(2*4.25))
+dx.append(2 * 4.25)
+dy.append(analisis.derivada(2 * 4.25))
 
 '''plt.figure()
 plt.plot(x1, y1)

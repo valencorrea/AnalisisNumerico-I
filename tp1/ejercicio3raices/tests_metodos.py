@@ -1,10 +1,8 @@
 import numpy as np
 
-import biseccion as bi
-import punto_fijo as pf
-import newton_raphson as nr
-import secante as se
-import newton_raphson_modificado as nrm
+from item_d import punto_fijo as pf, secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, \
+    biseccion as bi
+
 
 def f1(x):
     return np.sin(x)
@@ -16,6 +14,7 @@ def derivada_segunda1(x):
     return -np.sin(x)
 
 print("BISECCION")
+
 print(bi.raiz(f1, np.pi/2, 3*np.pi/2, 0.00001, 20))
 print(bi.raiz(f1, 1, 4, 0.00001, 20))
 
