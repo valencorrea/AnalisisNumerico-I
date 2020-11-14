@@ -21,7 +21,5 @@ plt.figure()
 plt.plot(x, y)
 plt.show()
 
-
-
 print("hmax es: ", v(2*4.25))
 

@@ -13,7 +13,6 @@ def raices(a, b, c):
     x1 = ( -b + math.sqrt( (b**2) - 4*a*c ) ) / (2*a)
     x2 = ( -b - math.sqrt( (b**2) - 4*a*c ) ) / (2*a)
 
-    # 7 porque son las cifras significativas maximas para una calculadora de 32 bits
     x1 = np.round(x1, 7) 
     x2 = np.round(x2, 7)
     return [x1, x2]

@@ -8,7 +8,7 @@ def raiz_1_equivalente(a, b, c):
 
 def raiz_2_convencional(a, b, c):
     
-    return  np.round( ( ( -b - math.sqrt(b**2 - (4 * a * c) ) ) / 2 * a), 7)    
+    return  np.round( ( ( -b - math.sqrt(b**2 - (4 * a * c) ) ) / (2 * a)), 7)
     
 
 def raices_optimizadas(a, b, c):
@@ -22,7 +22,10 @@ def raices_optimizadas(a, b, c):
         raise TypeError ("No se pueden calcular raices negativas")
     
     # contempla el caso de que (b^2 - 4ac) > 1e7
-    return [raiz_1_equivalente(a, b, c), raiz_2_convencional(a, b, c)]  
+    return [raiz_1_equivalente(a, b, c), raiz_2_convencional(a, b, c)]
+
+
+print(raices_optimizadas(-np.pi, 2 * 12.75 * np.pi / 3, 0))
 
 
 
