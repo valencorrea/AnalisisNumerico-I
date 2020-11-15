@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tp1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp1.iml" afterDir="false" />
+    <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="separo el item a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,8 +205,16 @@
       <workItem from="1605319727139" duration="502000" />
       <workItem from="1605398859467" duration="605000" />
       <workItem from="1605399466142" duration="2053000" />
-      <workItem from="1605408566151" duration="194000" />
+      <workItem from="1605408566151" duration="944000" />
     </task>
+    <task id="LOCAL-00001" summary="separo el item a">
+      <created>1605408805564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605408805564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +231,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="separo el item a" />
+    <option name="LAST_COMMIT_MESSAGE" value="separo el item a" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1605297940500">
@@ -283,5 +290,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605299208589" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605408809312">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1605408809312" />
   </component>
 </project>
