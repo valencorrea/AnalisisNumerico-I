@@ -43,17 +43,23 @@ y2.append(f2(2*4.25))
 dx.append(2*4.25)
 dy.append(analisis.derivada(2*4.25))
 
-'''plt.figure()
+plt.figure()
 plt.plot(x1, y1)
+plt.title('Función con el eje corrido hasta el porcentaje')
+plt.savefig("analisis_f1.jpg")
 plt.show()
 
 plt.figure()
 plt.plot(x2, y2)
+plt.title('Función con el eje corrido el 100%')
+plt.savefig("analisis_f2.jpg")
 plt.show()
 
 plt.figure()
 plt.plot(dx, dy)
-plt.show()'''
+plt.title('Análisis de derivadas')
+plt.savefig("analisis_derivada.jpg")
+plt.show()
 
 biseccion1 = bi.raiz(f1, 0, 2*4.25, 1e-13, 50)
 biseccion2 = bi.raiz(f2, 0, 2*4.25, 1e-13, 50)
@@ -143,12 +149,15 @@ plt.plot(ordenb1[:], '-', lw=2, label='Biseccion')
 plt.plot(orden_nr1[:], '-', lw=2, label='NR')
 plt.plot(orden_nr_modificado1[:], '-', lw=2, label='Newton-Raphson modificado')
 plt.plot(orden_secante1[:], '-', lw=2, label='Secante')
+plt.title('Raices para f1(x)')
+
 
 plt.xlabel('Paso [n]')
 plt.ylabel('alfa')
 
 plt.legend(loc='best')
 plt.grid(True)
+plt.savefig("raices_f1.jpg")
 
 plt.show()
 
@@ -159,12 +168,16 @@ plt.plot(ordenb2[:], '-', lw=2, label='Biseccion')
 plt.plot(orden_nr2[:], '-', lw=2, label='NR')
 plt.plot(orden_nr_modificado2[:], '-', lw=2, label='Newton-Raphson modificado')
 plt.plot(orden_secante2[:], '-', lw=2, label='Secante')
+plt.title('Raices para f2(x)')
+
+
 
 plt.xlabel('Paso [n]')
 plt.ylabel('alfa')
 
 plt.legend(loc='best')
 plt.grid(True)
+plt.savefig("raices_f2.jpg")
 
 plt.show()
 
