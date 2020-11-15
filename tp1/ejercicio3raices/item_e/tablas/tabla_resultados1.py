@@ -27,12 +27,12 @@ df2.to_csv("secante1.csv")
 
 df2 = pd.read_csv("secante1.csv")
 
-df3 = pd.DataFrame(secante, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
+df3 = pd.DataFrame(nr, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
 df3.to_csv("newton_raphson1.csv")
 
 df3 = pd.read_csv("newton_raphson1.csv")
 
-df4 = pd.DataFrame(secante, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
+df4 = pd.DataFrame(nr_mod, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
 df4.to_csv("newton_raphson_modificado1.csv")
 
 df4 = pd.read_csv("newton_raphson_modificado1.csv")
