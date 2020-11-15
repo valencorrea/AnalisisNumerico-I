@@ -1,6 +1,6 @@
 import scipy.optimize as sc
 import analisis_problema_fisico as analisis
-from tp1.ejercicio2calculadora.modelo import raices_optimizadas as ro
+from ejercicio2calculadora.modelo import raices_optimizadas as ro
 
 import numpy as np
 

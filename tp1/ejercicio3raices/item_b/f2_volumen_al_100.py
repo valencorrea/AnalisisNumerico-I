@@ -1,4 +1,4 @@
-import analisis_problema_fisico as analisis
+import ejercicio3raices.analisis_problema_fisico as analisis
 
 def f2(x):
 
