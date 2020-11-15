@@ -1,6 +1,6 @@
 import numpy as np
 
-from item_d import punto_fijo as pf, secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, \
+from ejercicio3raices.item_d.metodos import punto_fijo as pf, secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, \
     biseccion as bi
 
 
