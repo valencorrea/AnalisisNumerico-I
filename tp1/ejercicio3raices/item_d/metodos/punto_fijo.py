@@ -10,9 +10,12 @@ def raiz(f, x0, tolerancia, iteraciones):
     while (deltax > tolerancia) and (i < iteraciones):
         i+=1
         temp = xn
-        xn = f(temp)
-        deltax = np.abs(f(xn) - f(temp))
+        xn = g(f,temp)
+        deltax = np.abs(g(f,xn) - g(f,temp))
         raices.append(xn)
         cotas.append(deltax)
 
     return raices, cotas
+
+def g(f,x):
+    return x-f(x)
