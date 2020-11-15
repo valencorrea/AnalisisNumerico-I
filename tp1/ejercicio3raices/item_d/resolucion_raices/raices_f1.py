@@ -1,8 +1,8 @@
 from ejercicio3raices.item_a.f1_volumen_tanque import f1
-import ejercicio3raices.item_d.biseccion  as bi
-import ejercicio3raices.item_d.newton_raphson as nr
-import ejercicio3raices.item_d.newton_raphson_modificado as nrm
-import ejercicio3raices.item_d.secante as se
+import ejercicio3raices.item_d.metodos.biseccion  as bi
+import ejercicio3raices.item_d.metodos.newton_raphson as nr
+import ejercicio3raices.item_d.metodos.newton_raphson_modificado as nrm
+import ejercicio3raices.item_d.metodos.secante as se
 import ejercicio3raices.analisis_problema_fisico as analisis
 
 #pfijo1 = pf.raiz(f1, 0, 1e-13, 50)
