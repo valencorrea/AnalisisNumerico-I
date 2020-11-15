@@ -4,10 +4,10 @@ from ejercicio3raices.item_d import biseccion as bi
 
 def raiz(f, derivada, derivada_segunda, a, b, tolerancia, iteraciones):
     biseccion = bi.raiz(f, a, b, tolerancia, 2)
-    xns = biseccion[0]
-    dxs = biseccion[1]
-    xn = xns[len(xns) - 1]
-    deltax = dxs[len(dxs) - 1]
+    historial_raices = biseccion[0]
+    historial_cotas = biseccion[1]
+    xn = historial_raices[len(historial_raices) - 1]
+    deltax = historial_cotas[len(historial_cotas) - 1]
 
     i = 0
     raices = [xn]

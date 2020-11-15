@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from item_a import f1_volumen_tanque as vol
+from ejercicio3raices.item_a import f1_volumen_tanque as vol
 
-# VER:
-#   ALTURA NEGATIVA?
 
 plt.figure()
 

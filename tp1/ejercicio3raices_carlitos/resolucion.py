@@ -14,53 +14,6 @@ def f1(x):
 
 def f2(x):
     return analisis.v(x) - analisis.v(2 * 4.25)
-
-x1 = [0]
-y1 = [f1(0)]
-
-x2 = [0]
-y2 = [f2(0)]
-
-dx = [0]
-dy = [analisis.derivada(0)]
-
-for i in range(1, 8):
-    x1.append(i)
-    y1.append(f1(i))
-
-    x2.append(i)
-    y2.append(f2(i))
-
-    dx.append(i)
-    dy.append(analisis.derivada(i))
-
-x1.append(2*4.25)
-y1.append(f1(2*4.25))
-
-x2.append(2*4.25)
-y2.append(f2(2*4.25))
-
-dx.append(2*4.25)
-dy.append(analisis.derivada(2*4.25))
-
-plt.figure()
-plt.plot(x1, y1)
-plt.title('Función con el eje corrido hasta el porcentaje')
-plt.savefig("analisis_f1.jpg")
-plt.show()
-
-plt.figure()
-plt.plot(x2, y2)
-plt.title('Función con el eje corrido el 100%')
-plt.savefig("analisis_f2.jpg")
-plt.show()
-
-plt.figure()
-plt.plot(dx, dy)
-plt.title('Análisis de derivadas')
-plt.savefig("analisis_derivada.jpg")
-plt.show()
-
 biseccion1 = bi.raiz(f1, 0, 2*4.25, 1e-13, 50)
 biseccion2 = bi.raiz(f2, 0, 2*4.25, 1e-13, 50)
 ordenb1 = orden.estimar_ordenar_convergencia(biseccion1[0], len(biseccion1[0]))

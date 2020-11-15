@@ -1,4 +1,4 @@
-from tests import tests_raices_convencional as convencional, tests_raices_optimizadas as optimizadas
+from ejercicio2calculadora.tests import tests_raices_convencional as convencional, tests_raices_optimizadas as optimizadas
 import pandas as pd
 
 data = {'a': convencional.a,
@@ -15,7 +15,7 @@ df = pd.DataFrame(data, columns = ['a','b','c','convencional_x1','convencional_x
 decimals = pd.Series([7,7,7,7,7,7,7], index=['a','b','c','convencional_x1','convencional_x2', 'optimizada_x1','optimizada_x2'])
 df.round(decimals)
 # df.round({'a': 7, 'b': 7,'c':7,'convencional_x1':7,'convencional_x2':7, 'optimizada_x1':7,'optimizada_x2':7})
-df.to_html("Table.htm")
+df.to_csv("Tabla_de_comparacion.csv")
 
 print()
 print()

@@ -16,7 +16,7 @@ def raiz(f, derivada, a, b, tolerancia, iteraciones):
     while (i < iteraciones) and (deltax > tolerancia):
         i+=1
         if derivada(xn) == 0:
-            return None #estaria bueno llamar a secante
+            return raices,cotas
 
         temp = xn
         xn = xn - (f(xn) / derivada(xn))

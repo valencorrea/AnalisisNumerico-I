@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from item_c.graficos_derivadas.derivadas import derivada_f1 as df1
+from ejercicio3raices.item_c.graficos_derivadas.derivadas import derivada_f1 as df1
 
 plt.figure()
 

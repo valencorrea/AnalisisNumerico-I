@@ -1,5 +1,5 @@
 import numpy as np
-from item_d import biseccion as bi
+from ejercicio3raices.item_d import biseccion as bi
 
 
 def funcion(x):
