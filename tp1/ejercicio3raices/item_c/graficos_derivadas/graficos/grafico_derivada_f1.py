@@ -21,4 +21,5 @@ plt.title(nombre_grafico)
 plt.xlabel('x')
 plt.ylabel('y')
 
-plt.show()
+
+plt.savefig("derivada_f1")

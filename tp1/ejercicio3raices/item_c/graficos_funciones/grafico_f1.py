@@ -22,4 +22,5 @@ plt.title(nombre_grafico)
 plt.xlabel('radio')
 plt.ylabel('altura(radio)')
 
-plt.show()
+
+plt.savefig("f1")
