@@ -1,6 +1,6 @@
-import analisis_problema_fisico as analisis
+import ejercicio3raices.analisis_problema_fisico as analisis
 
-from item_d import secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, biseccion as bi
+from ejercicio3raices.item_d.metodos import secante as se, newton_raphson as nr, newton_raphson_modificado as nrm, biseccion as bi
 
 
 def f(x, subir_eje):
