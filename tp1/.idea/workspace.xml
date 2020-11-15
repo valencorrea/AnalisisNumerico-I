@@ -19,8 +19,73 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="separo el item a">
+    <list default="true" id="14d70d4f-5cae-4b31-bd7a-49bc41d95a72" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
+      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio1candado/item_c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/constantes_asintoticas/constante_f1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/constantes_asintoticas/constante_f2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/ordenes/convergencia_f1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/ordenes/convergencia_f2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/biseccion1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/biseccion2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/newton_raphson2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/newton_raphson_modificado2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/secante2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/tabla_resultados2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_g/comparacion_ordenes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_g/raices_f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio3raices/item_g/raices_f2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/biseccion.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/metodos/biseccion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/newton_raphson.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/metodos/newton_raphson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/newton_raphson_modificado.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/metodos/newton_raphson_modificado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/punto_fijo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/metodos/punto_fijo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices/raices_f1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices/raices_f1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices/raices_f2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices/raices_f2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/item_d/secante.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_d/metodos/secante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices/resultados_metodos/biseccion_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/analisis_derivada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/analisis_f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/analisis_f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/biseccion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/biseccion1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/biseccion1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/biseccion2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/biseccion2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/calculo_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/constantes_asintoticas/calculo_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/item_f.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson_modificado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson_modificado1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson_modificado1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson_modificado2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/newton_raphson_modificado2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/orden_convergencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/ordenes/orden_convergencia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/preguntas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/problemas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/punto_fijo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/raices_f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/raices_f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/resolucion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/secante.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/secante1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/secante1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/secante2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/secante2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/tablas1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/tabla_resultados1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/tablas2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3raices_carlitos/tests_metodos.py" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +112,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicio3raices/item_e/constantes_asintoticas" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio3raices\item_e\constantes_asintoticas" />
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio3raices\item_e\ordenes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio3raices\item_e\tablas" />
+      <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio3raices\item_d\metodos" />
       <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\modelo" />
       <recent name="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio2calculadora\tests" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.item_c">
+=======
+  <component name="RunManager" selected="Python.comparacion_ordenes">
+>>>>>>> Stashed changes
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="biseccion_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="comparacion_ordenes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/resultados_metodos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_g" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/resultados_metodos/biseccion_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/item_g/comparacion_ordenes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,17 +181,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="item_a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="raices_f1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio1candado" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio1candado/item_a.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/item_d/resolucion_raices/raices_f1.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,17 +212,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="item_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="tabla_resultados1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio1candado" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_e/tablas" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio1candado/item_b.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/tabla_resultados1.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,17 +243,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="item_c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="tabla_resultados1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio1candado" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_e" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio1candado/item_c.py" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\agust\Desktop\Algo\Final10-9\tpsAnalisisNumerico\tp1\ejercicio3raices\item_e\tablas\tabla_resultados1.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +274,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="raices_paquete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="tabla_resultados2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="tp1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,12 +286,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_f" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio3raices/item_e/tablas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/item_f/raices_paquete.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio3raices/item_e/tablas/tabla_resultados2.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +306,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Python.item_c" />
         <item itemvalue="Python.item_b" />
         <item itemvalue="Python.item_a" />
         <item itemvalue="Python.biseccion_test" />
         <item itemvalue="Python.raices_paquete" />
+=======
+        <item itemvalue="Python.comparacion_ordenes" />
+        <item itemvalue="Python.tabla_resultados2" />
+        <item itemvalue="Python.tabla_resultados1 (1)" />
+        <item itemvalue="Python.tabla_resultados1" />
+        <item itemvalue="Python.raices_f1" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -205,16 +333,8 @@
       <workItem from="1605319727139" duration="502000" />
       <workItem from="1605398859467" duration="605000" />
       <workItem from="1605399466142" duration="2053000" />
-      <workItem from="1605408566151" duration="944000" />
+      <workItem from="1605408566151" duration="194000" />
     </task>
-    <task id="LOCAL-00001" summary="separo el item a">
-      <created>1605408805564</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605408805564</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,8 +353,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="separo el item a" />
-    <option name="LAST_COMMIT_MESSAGE" value="separo el item a" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1605297940500">
@@ -245,6 +364,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="421" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605298620951" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605410295134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605410295134" />
     <state x="346" y="118" key="FileChooserDialogImpl" timestamp="1605399463391">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
@@ -290,9 +413,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605299208589" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605408809312">
-      <screen x="0" y="0" width="1024" height="728" />
-    </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1605408809312" />
   </component>
 </project>
