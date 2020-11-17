@@ -1,5 +1,5 @@
 import numpy as np
-from ejercicio3raices.item_d.metodos import biseccion as bi
+from tp1.ejercicio3raices.item_d.metodos import biseccion as bi
 
 
 def raiz(f, derivada, derivada_segunda, a, b, tolerancia, iteraciones):

@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
-from ejercicio3raices.item_e.ordenes.convergencia_f1 import ordenb1
-from ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr1
-from ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_secante1
-from ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr_modificado1
-from ejercicio3raices.item_e.ordenes.convergencia_f2 import ordenb2
-from ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_nr2
-from ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_secante2
-from ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_nr_modificado2
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import ordenb1
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr1
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_secante1
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr_modificado1
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f2 import ordenb2
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_nr2
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_secante2
+from tp1.ejercicio3raices.item_e.ordenes.convergencia_f2 import orden_nr_modificado2
 plt.figure()
 
 

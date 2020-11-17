@@ -3,8 +3,12 @@ import scipy.optimize as sc
 
 #p es a lo que tiende la sucesión
 def calcular_lambda(alfa, raices):
-    p = raices[len(raices) - 1]
     constante_lambda = [0]
+
+    xn = raices[len(raices) - 3]
+    xn_mas_uno = raices[len(raices) - 3 + 1]
+    xn_mas_dos = raices[len(raices) - 3 + 2]
+    p = ((xn_mas_dos * xn) - (xn_mas_uno ** 2)) / (xn_mas_dos - 2 * xn_mas_uno + xn)
 
     #le resto dos ya que no quiero que p == xn_mas_uno
     for i in range(len(raices) - 2):
