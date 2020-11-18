@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -10,5 +9,3 @@ def derivada(x):
 
 def derivada_segunda(x):
     return (-2 * np.pi * x) + (2 * 12.75 * np.pi / 3)
-
-

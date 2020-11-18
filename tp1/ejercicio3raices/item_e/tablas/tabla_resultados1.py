@@ -14,7 +14,6 @@ secante = {'Raices': secante1[0], 'Cotas': secante1[1], 'Orden de convergencia':
 nr = {'Raices': nr1[0], 'Cotas': nr1[1], 'Orden de convergencia': orden_nr1,'constante asintotica' : c1.lambda_nr1}
 nr_mod = {'Raices': nr_modificado1[0], 'Cotas': nr_modificado1[1], 'Orden de convergencia': orden_nr_modificado1,'constante asintotica' : c1.lambda_nr_modificado1}
 
-print(len(biseccion1[0]), len(ordenb1))
 
 
 df1 = pd.DataFrame(biseccion, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
@@ -37,6 +36,4 @@ df3 = pd.read_csv("newton_raphson1.csv")
 df4 = pd.DataFrame(nr_mod, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
 df4.to_csv("newton_raphson_modificado1.csv")
 
-df4 = pd.read_csv("newton_raphson_modificado1.csv")
 
-print(df4)
