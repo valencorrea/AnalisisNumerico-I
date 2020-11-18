@@ -19,7 +19,5 @@ def calcular_lambda(alfa, raices):
 
         constante_lambda.append(ultimo_lambda)
 
-        print("iteracion:", i, "- lambda:", ultimo_lambda)
-
     constante_lambda.append(ultimo_lambda)
     return constante_lambda

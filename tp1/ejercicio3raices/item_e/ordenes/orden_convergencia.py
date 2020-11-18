@@ -1,8 +1,7 @@
 import numpy as np
 
 def estimar_ordenar_convergencia(raices, iteraciones):
-    alfa = [0, 0, 0]
-    ultimo_alfa = 0
+    alfa = [0] * iteraciones
 
     for n in range (3, iteraciones):
         xn_mas_uno = raices[n] - raices[n - 1]
@@ -10,11 +9,9 @@ def estimar_ordenar_convergencia(raices, iteraciones):
         xn_menos_uno = raices[n - 2] - raices[n - 3]
 
         if xn_menos_uno == 0 or np.log10(np.abs(xn / xn_menos_uno)) == 0 or xn == 0:
-            alfa[n] = n, np.inf
+            return alfa
         else:
-            ultimo_alfa = np.log10(np.abs(xn_mas_uno / xn)) / np.log10(np.abs(xn / xn_menos_uno))
-            alfa.append(ultimo_alfa)
-
-    alfa[0], alfa[1], alfa[2] = alfa[3], alfa[3], alfa[3] #para no usar el 0 como alfa
+            ultimo_alfa = (np.log(np.abs(xn_mas_uno / xn))) / (np.log(np.abs(xn / xn_menos_uno)))
+            alfa[n] = (ultimo_alfa)
 
     return alfa

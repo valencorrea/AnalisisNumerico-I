@@ -19,7 +19,7 @@ def raiz(f, a, b, tolerancia, iteraciones):
     raices = []
     cotas = []
 
-    while (i < iteraciones) and (deltax > tolerancia):
+    while (i < iteraciones) and (np.abs(deltax) > tolerancia):
         i += 1
         deltax = np.abs(f(p) - f((b + a) / 2))
         p, a, b = seleccion_p(f, a, b)
