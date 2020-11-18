@@ -4,8 +4,8 @@ def raiz(f, x0, tolerancia, iteraciones):
     xn = x0
     deltax = tolerancia + 1
     i = 0
-    raices = [xn]
-    cotas = ['-']
+    raices = []
+    cotas = []
 
     while (deltax > tolerancia) and (i < iteraciones):
         i+=1

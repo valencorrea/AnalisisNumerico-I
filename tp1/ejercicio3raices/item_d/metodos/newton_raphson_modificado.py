@@ -10,8 +10,8 @@ def raiz(f, derivada, derivada_segunda, a, b, tolerancia, iteraciones):
     deltax = historial_cotas[len(historial_cotas) - 1]
 
     i = 0
-    raices = [xn]
-    cotas = [deltax]
+    raices = []
+    cotas = []
 
     while i < iteraciones and deltax > tolerancia:
         i+=1

@@ -10,8 +10,8 @@ def raiz(f, derivada, a, b, tolerancia, iteraciones):
     deltax = dxs[len(dxs) - 1]
 
     i = 0
-    raices = [xn]
-    cotas = [deltax]
+    raices = []
+    cotas = []
 
     while (i < iteraciones) and (deltax > tolerancia):
         i+=1

@@ -16,8 +16,8 @@ def raiz(f, a, b, tolerancia, iteraciones):
     p, a, b = seleccion_p(f, a, b)
     deltax = tolerancia + 1
 
-    raices = [p]
-    cotas = ['-']
+    raices = []
+    cotas = []
 
     while (i < iteraciones) and (deltax > tolerancia):
         i += 1
