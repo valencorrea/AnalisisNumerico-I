@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from ejercicio3raices.item_b import f2_volumen_al_100 as vol
+from tp1.ejercicio3raices.item_b import f2_volumen_al_100 as vol
 
 
 plt.figure()
