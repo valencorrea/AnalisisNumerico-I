@@ -25,8 +25,6 @@ def raices_optimizadas(a, b, c):
     return [raiz_1_equivalente(a, b, c), raiz_2_convencional(a, b, c)]
 
 
-print(raices_optimizadas(-np.pi, 2 * 12.75 * np.pi / 3, 0))
-
 
 
 
