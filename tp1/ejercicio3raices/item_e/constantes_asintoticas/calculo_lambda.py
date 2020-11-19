@@ -1,11 +1,9 @@
 import numpy as np
 
-
 def calcular_lambda(alfa, raices):
     constante_lambda = [0, 0]
 
     ultimo_lambda = 0
-
 
     for i in range(2, len(raices) - 1):
 

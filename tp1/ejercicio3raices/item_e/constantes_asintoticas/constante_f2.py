@@ -18,8 +18,6 @@ lambda_nr_modificado2 = calc.calcular_lambda(orden_nr_modificado2, modos.nr_modi
 
 plt.figure()
 
-# el rango de interes es desde 0 (no hay radios negativos) hasta 2R
-
 x1 = np.linspace(0, len(modos.biseccion2[0]), len(modos.biseccion2[0]))
 y1 = lambda_b2
 

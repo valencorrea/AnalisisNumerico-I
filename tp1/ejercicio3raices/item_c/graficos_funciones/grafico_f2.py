@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tp1.ejercicio3raices.item_b import f2_volumen_al_100 as vol
 
-
 plt.figure()
 
 cantidad_muestras = 50
@@ -21,6 +20,5 @@ plt.title(nombre_grafico)
 
 plt.xlabel('radio')
 plt.ylabel('altura(radio)')
-
 
 plt.savefig("f2")

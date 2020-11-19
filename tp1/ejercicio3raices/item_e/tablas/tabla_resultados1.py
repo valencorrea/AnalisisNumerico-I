@@ -3,11 +3,13 @@ from tp1.ejercicio3raices.item_d.resolucion_raices.raices_f1 import nr1
 from tp1.ejercicio3raices.item_d.resolucion_raices.raices_f1 import secante1
 from tp1.ejercicio3raices.item_d.resolucion_raices.raices_f1 import nr_modificado1
 from tp1.ejercicio3raices.item_d.resolucion_raices.raices_f1 import pfijo1
+
 from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_pf1
 from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import ordenb1
 from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr1
 from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_secante1
 from tp1.ejercicio3raices.item_e.ordenes.convergencia_f1 import orden_nr_modificado1
+
 import tp1.ejercicio3raices.item_e.constantes_asintoticas.constante_f1 as c1
 import pandas as pd
 
@@ -16,8 +18,6 @@ pfijo = {'Raices': pfijo1[0], 'Cotas': pfijo1[1], 'Orden de convergencia': orden
 secante = {'Raices': secante1[0], 'Cotas': secante1[1], 'Orden de convergencia': orden_secante1,'constante asintotica' : c1.lambda_secante1}
 nr = {'Raices': nr1[0], 'Cotas': nr1[1], 'Orden de convergencia': orden_nr1,'constante asintotica' : c1.lambda_nr1}
 nr_mod = {'Raices': nr_modificado1[0], 'Cotas': nr_modificado1[1], 'Orden de convergencia': orden_nr_modificado1,'constante asintotica' : c1.lambda_nr_modificado1}
-
-
 
 df1 = pd.DataFrame(biseccion, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
 df1.to_csv("biseccion1.csv")
@@ -28,8 +28,6 @@ df2 = pd.DataFrame(secante, columns = ['Raices', 'Cotas', 'Orden de convergencia
 df2.to_csv("secante1.csv")
 
 df2 = pd.read_csv("secante1.csv")
-
-
 
 df3 = pd.DataFrame(nr, columns = ['Raices', 'Cotas', 'Orden de convergencia','constante asintotica'])
 df3.to_csv("newton_raphson1.csv")

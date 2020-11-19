@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def raiz(g, x0, tolerancia, iteraciones):
     xn = x0
     deltax = tolerancia + 1

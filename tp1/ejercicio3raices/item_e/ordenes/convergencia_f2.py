@@ -30,7 +30,6 @@ y4 = orden_nr_modificado2[0:len(nr_modificado2[0])]
 x5 = np.linspace(0, len(pfijo2[0]) - 4, len(pfijo2[0]) - 4)
 y5 = orden_pf2[0:len(pfijo2[0]) - 4]
 
-
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
 plt.plot(x5, y5, '-', lw=2, label='Punto-fijo')
 plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')

@@ -1,11 +1,12 @@
 from tp1.ejercicio3raices.item_b.f2_volumen_al_100 import f2
 from tp1.ejercicio3raices.item_b.f2_volumen_al_100 import g2
-#from tp1.ejercicio3raices.item_b.f2_volumen_al_100 import g2_aux
+
 import tp1.ejercicio3raices.item_d.metodos.biseccion  as bi
 import tp1.ejercicio3raices.item_d.metodos.newton_raphson as nr
 import tp1.ejercicio3raices.item_d.metodos.newton_raphson_modificado as nrm
 import tp1.ejercicio3raices.item_d.metodos.secante as se
 import tp1.ejercicio3raices.item_d.metodos.punto_fijo as pf
+
 import tp1.ejercicio3raices.analisis_problema_fisico as analisis
 
 biseccion2 = bi.raiz(f2, 0, 2*4.25, 1e-13, 50)

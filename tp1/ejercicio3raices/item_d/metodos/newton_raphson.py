@@ -1,7 +1,6 @@
 import numpy as np
 from tp1.ejercicio3raices.item_d.metodos import biseccion as bi
 
-
 def raiz(f, derivada, a, b, tolerancia, iteraciones):
     biseccion = bi.raiz(f, a, b, tolerancia, 2)
     xns = biseccion[0]
