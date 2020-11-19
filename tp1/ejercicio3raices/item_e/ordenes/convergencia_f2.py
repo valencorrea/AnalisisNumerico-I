@@ -29,19 +29,20 @@ y4 = orden_nr_modificado2[0:len(nr_modificado2[0])]
 
 x5 = np.linspace(0, len(pfijo2[0]), len(pfijo2[0]))
 y5 = orden_pf2[0:len(pfijo2[0])]
+
+
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
 plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')
 plt.plot(x3, y3, '-', lw=2, label='Secante')
 plt.plot(x4, y4, '-', lw=2, label='Newton-Raphson modificado')
 plt.plot(x5, y5, '-', lw=2, label='Punto-fijo')
 
-nombre_grafico = 'Orden de convergencia p 1'
+nombre_grafico = 'Orden de convergencia p para f2'
 plt.title(nombre_grafico)
 
 plt.xlabel('x')
 plt.ylabel('Orden de convergencia p')
 plt.legend(loc='best')
 plt.grid(True)
-
 
 plt.savefig("convergencia2.png")

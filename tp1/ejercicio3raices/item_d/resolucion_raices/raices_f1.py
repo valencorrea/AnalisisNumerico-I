@@ -13,3 +13,5 @@ nr1 = nr.raiz(f1, analisis.derivada, 0, 2*4.25, 1e-13, 60)
 secante1 = se.raiz(f1, 0, 2*4.25, 1e-13, 60)
 nr_modificado1 = nrm.raiz(f1, analisis.derivada, analisis.derivada_segunda, 0, 2*4.25, 1e-13, 60)
 
+print(len(pfijo1[0]))
+
