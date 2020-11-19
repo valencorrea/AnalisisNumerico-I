@@ -35,10 +35,10 @@ x5 = np.linspace(0, len(modos.pfijo2[0]), len(modos.pfijo2[0]))
 y5 = lambda_pf2
 
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
-plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')
-plt.plot(x3, y3, '-', lw=2, label='Secante')
-plt.plot(x4, y4, '-', lw=2, label='Newton-Raphson modificado')
 plt.plot(x5, y5, '-', lw=2, label='Punto_fijo')
+plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')
+plt.plot(x4, y4, '-', lw=2, label='Newton-Raphson modificado')
+plt.plot(x3, y3, '-', lw=2, label='Secante')
 
 nombre_grafico = 'Constante asintótica f2'
 plt.title(nombre_grafico)
