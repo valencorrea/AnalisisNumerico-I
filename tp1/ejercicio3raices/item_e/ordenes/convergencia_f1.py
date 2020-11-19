@@ -32,10 +32,10 @@ y5 = orden_pf1[0:len(pfijo1[0])]
 
 
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
-plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')
-plt.plot(x3, y3, '-', lw=2, label='Secante')
-plt.plot(x4, y4, '-', lw=2, label='Newton-Raphson modificado')
 plt.plot(x5, y5, '-', lw=2, label='Punto-fijo')
+plt.plot(x2, y2, '-', lw=2, label='Newton-Raphson')
+plt.plot(x4, y4, '-', lw=2, label='Newton-Raphson modificado')
+plt.plot(x3, y3, '-', lw=2, label='Secante')
 
 nombre_grafico = 'Orden de convergencia p para f1'
 plt.title(nombre_grafico)

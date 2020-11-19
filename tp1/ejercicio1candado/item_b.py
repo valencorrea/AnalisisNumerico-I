@@ -1,4 +1,4 @@
-import ejercicio1candado.item_a as fb
+import tp1.ejercicio1candado.item_a as fb
 
 def realizar_fuerza_bruta(numero):
     comb_descubierta = False
