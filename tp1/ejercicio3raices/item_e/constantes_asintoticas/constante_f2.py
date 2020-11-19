@@ -31,8 +31,8 @@ y3 = lambda_secante2[0]
 
 x4 = np.linspace(0, len(modos.nr_modificado2[0]), len(modos.nr_modificado2[0]))
 y4 = lambda_nr_modificado2
-x5 = np.linspace(0, len(modos.pfijo2[0]), len(modos.pfijo2[0]))
-y5 = lambda_pf2
+x5 = np.linspace(0, len(modos.pfijo2[0]) - 4, len(modos.pfijo2[0]) - 4)
+y5 = lambda_pf2[0:len(modos.pfijo2[0]) - 4]
 
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
 plt.plot(x5, y5, '-', lw=2, label='Punto_fijo')
@@ -48,5 +48,6 @@ plt.ylabel('constante asintotica')
 plt.legend(loc='best')
 plt.grid(True)
 
-
 plt.savefig("constante_f2.png")
+
+plt.show()

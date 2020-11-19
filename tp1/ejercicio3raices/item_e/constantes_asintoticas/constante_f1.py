@@ -55,3 +55,5 @@ plt.grid(True)
 
 
 plt.savefig("constante_f1.png")
+
+plt.show()

@@ -24,7 +24,8 @@ y2 = orden_nr1[0:len(nr1[0])-2]
 x3 = np.linspace(0, len(secante1[0])-4, len(secante1[0])-4)
 y3 = orden_secante1[0:len(secante1[0])-4]
 
-x4 = np.linspace(0, len(nr_modificado1[0])-2, len(nr_modificado1[0])-2)
+x4 = nplt.show()
+p.linspace(0, len(nr_modificado1[0])-2, len(nr_modificado1[0])-2)
 y4 = orden_nr_modificado1[0:len(nr_modificado1[0])-2]
 
 x5 = np.linspace(0, len(pfijo1[0]), len(pfijo1[0]))
@@ -46,3 +47,5 @@ plt.legend(loc='best')
 plt.grid(True)
 
 plt.savefig("convergencia1.png")
+
+plt.show()

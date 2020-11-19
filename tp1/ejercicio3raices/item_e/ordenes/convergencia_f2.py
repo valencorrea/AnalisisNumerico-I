@@ -27,8 +27,8 @@ y3 = orden_secante2[0:len(secante2[0])]
 x4 = np.linspace(0, len(nr_modificado2[0]), len(nr_modificado2[0]))
 y4 = orden_nr_modificado2[0:len(nr_modificado2[0])]
 
-x5 = np.linspace(0, len(pfijo2[0]), len(pfijo2[0]))
-y5 = orden_pf2[0:len(pfijo2[0])]
+x5 = np.linspace(0, len(pfijo2[0]) - 4, len(pfijo2[0]) - 4)
+y5 = orden_pf2[0:len(pfijo2[0]) - 4]
 
 
 plt.plot(x1, y1, '-', lw=2, label='Biseccion')
@@ -46,3 +46,5 @@ plt.legend(loc='best')
 plt.grid(True)
 
 plt.savefig("convergencia2.png")
+
+plt.show()
