@@ -6,12 +6,15 @@ plt.title('Depredador - presa')
 
 plt.xlabel('t')
 
-x = sol.solucion_x[1]
 t = sol.solucion_x[0]
+x = sol.solucion_x[1]
+y = sol.solucion_y[1]
 
 plt.plot(x, '-', lw=3, label='presa')
-plt.xlim(0, 50)
-plt.ylim(0, 30)
+plt.plot(y, '-', lw=3, label='depredador')
+
+plt.xlim(0, 30)
+plt.ylim(0, 10)
 plt.legend(loc='best')
 plt.grid(True)
 
