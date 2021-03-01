@@ -1,25 +1,19 @@
 import matplotlib.pyplot as plt
 import item_a.soluciones as sol
 
-#NO FUNCIONA XD
-
 plt.figure()
-
-maximo_vertical = 10
-maximo_horizontal = 30
-
-nombre_grafico = 'Depredador - presa (t)'
-plt.title(nombre_grafico)
+plt.title('Depredador - presa')
 
 plt.xlabel('t')
-plt.ylabel('x e y')
 
-x = sol.solucion_x
-#y = sol.solucion_y
-t = sol.tiempo
+x = sol.solucion_x[1]
+t = sol.solucion_x[0]
 
-plt.plot(t, x)
-#plt.plot(t, y)
+plt.plot(x, '-', lw=3, label='presa')
+plt.xlim(0, 50)
+plt.ylim(0, 30)
+plt.legend(loc='best')
+plt.grid(True)
+
+plt.savefig("grafico_item_b.jpg")
 plt.show()
-
-plt.savefig("grafico_item_b")
