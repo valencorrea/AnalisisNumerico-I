@@ -1,21 +1,21 @@
-def runge_kutta(f, x_0, y_0, h, t_0, cota_t):
-    resultados = []
-    iteracion = 0
-    t_i = 0
-    t = []
+def runge_kutta(f, variable, h, t_0, cota_t):
+    resultados = [variable]
+    iteracion = 1
+    t_i = t_0
+    t = [t_i]
 
     while(t_i < cota_t):
-        k_1 = f(x_0, y_0)
-        k_2 = f(x_0 + (h/2), y_0 + (1/2) * h * k_1)
-        k_3 = f(x_0 + (h/2), y_0 + (1/2) * h * k_2)
-        k_4 = f(x_0 + h, y_0 + h * k_3)
+        k_1 = h * f(t_i, variable)
+        k_2 = h * f(t_i + (h/2), variable + (1/2) * k_1)
+        k_3 = h * f(t_i + (h/2), variable + (1/2) * k_2)
+        k_4 = h * f(t_i + h, variable + k_3)
 
-        y_0_mas_uno = y_0 + (h/6) * (k_1 + 2 * k_2 + 2 * k_3 + k_4)
-        resultados.append(y_0_mas_uno)
+        variable = variable + ((k_1 + 2 * k_2 + 2 * k_3 + k_4) / 6)
+        resultados.append(variable)
 
         t_i = t_0 + (iteracion * h)
         t.append(t_i)
 
-        iteracion+=1
+        iteracion = iteracion + 1
 
     return (t, resultados)
