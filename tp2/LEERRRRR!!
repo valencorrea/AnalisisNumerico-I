@@ -1,0 +1,9 @@
+item a -> falta ver que onda eso de integrar entre 0 y 30, si multiplicamos las funciones
+por 30 hace mal la grafica
+
+item c -> buscar picos de la presa y el depredador mirando la grafica (poner mas numeros
+en le recta numerica para dar valores mas exactos) o ver de hacer una sola iteracion y ver
+hasta donde llega
+
+item d -> idem c, asi como esta el codigo muesta lo mismo que el grafico de b porque
+no estan a b c d duplicados. hacer algun refactor para ver si se puede modularizar eso
