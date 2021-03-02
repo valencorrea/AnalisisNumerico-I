@@ -6,9 +6,9 @@ plt.title('Depredador - presa')
 
 plt.xlabel('t')
 
-t = sol.solucion_x[0]
-x = sol.solucion_x[1]
-y = sol.solucion_y[1]
+t = sol.t
+x = sol.x
+y = sol.y
 
 plt.plot(x, '-', lw=3, label='presa')
 plt.plot(y, '-', lw=3, label='depredador')
