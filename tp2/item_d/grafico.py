@@ -1,4 +1,4 @@
-from item_a.resultados import resultados
+from item_d.resultados import resultados
 import matplotlib.pyplot as plt
 
 t = resultados[:, 0]
