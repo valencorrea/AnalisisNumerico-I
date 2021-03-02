@@ -1,22 +1,18 @@
+from item_a.resultados import resultados
 import matplotlib.pyplot as plt
-import item_a.soluciones as sol
 
-plt.figure()
-plt.title('Depredador - presa')
+t = resultados[:, 0]
+x = resultados[:, 1]
+y = resultados[:, 2]
 
-plt.xlabel('t')
-
-t = sol.t
-x = sol.x
-y = sol.y
-
-plt.plot(x, '-', lw=3, label='presa')
-plt.plot(y, '-', lw=3, label='depredador')
+plt.plot(t, x, label='presa')
+plt.plot(t, y, label='depredador')
 
 plt.xlim(0, 30)
 plt.ylim(0, 7)
-plt.legend(loc='best')
-plt.grid(True)
 
-plt.savefig("grafico_item_b.jpg")
+plt.title('depredador-presa')
+plt.xlabel('tiempo')
+plt.legend()
+plt.grid()
 plt.show()
