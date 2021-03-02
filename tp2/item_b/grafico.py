@@ -14,7 +14,7 @@ plt.plot(x, '-', lw=3, label='presa')
 plt.plot(y, '-', lw=3, label='depredador')
 
 plt.xlim(0, 30)
-plt.ylim(0, 10)
+plt.ylim(0, 7)
 plt.legend(loc='best')
 plt.grid(True)
 
