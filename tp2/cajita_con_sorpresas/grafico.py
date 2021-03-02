@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import auxi.soluciones as sol
+import cajita_con_sorpresas.soluciones as sol
 import numpy as np
 
 t = sol.t
