@@ -11,8 +11,3 @@ def derivada_y(t, x, y):
     # d = 0.8
     # hay un error de enunciado, habia que intercambiarlos
     return (0.3 * x * y) - (0.8 * y)
-
-
-
-
-# no estamos integrando de 0 a 30 D: <----- VER
