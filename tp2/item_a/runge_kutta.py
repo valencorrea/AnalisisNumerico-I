@@ -2,7 +2,7 @@ import numpy as np
 
 def runge_kutta_orden4(f_1, f_2, t, x, y, h, tope_iteracion):
 
-    indice = 0
+    indice = 1
     resultado = np.zeros(shape = (tope_iteracion, 3), dtype = float)
     resultado[0] = [t, x, y]
 
@@ -26,7 +26,10 @@ def runge_kutta_orden4(f_1, f_2, t, x, y, h, tope_iteracion):
         y = y + (k_1 + (2 * k_2) + (2 * k_3) + k_4) / 6
         t = t + h
 
+
         resultado[indice] = [t, x, y]
         indice += 1
+
+    resultado[-1] = [t, x, y]
 
     return resultado
