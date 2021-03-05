@@ -1,5 +1,3 @@
-import numpy as np
-
 from item_a.resultados import resultados
 import matplotlib.pyplot as plt
 from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)

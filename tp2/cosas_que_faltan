@@ -15,4 +15,6 @@ item g -> ponerle la misma escala (a ambos graficos) que en los graficos del pri
 ver por que no esta guardando la ultima linea de datos (llega hasta t = 19.9)
 si se descomentan los legends de los codigos de los graficos tira error
 
+-> ver que cambiamos que ahora cuando se corren resultados en items b y e se crea resultados_item_a.csv
+
 -> informe xd
