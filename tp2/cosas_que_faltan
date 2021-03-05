@@ -1,0 +1,18 @@
+cosas que faltan:
+
+
+item a -> falta ver que onda eso de integrar entre 0 y 30, si multiplicamos las funciones
+por 30 hace mal la grafica
+
+item c -> explicar en el informe los datos que pide mirando el grafico
+
+item d -> chamuyo en el informe
+
+item e -> agregarle escala mas chiquita como los graficos de los otros items
+ver por que cuando se corre se crea resultados_item_a.csv
+
+item g -> ponerle la misma escala (a ambos graficos) que en los graficos del principio a ambos graficos
+ver por que no esta guardando la ultima linea de datos (llega hasta t = 19.9)
+si se descomentan los legends de los codigos de los graficos tira error
+
+-> informe xd

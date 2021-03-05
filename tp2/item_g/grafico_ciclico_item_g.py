@@ -13,7 +13,7 @@ plt.ylim(0, 7)
 
 plt.title('depredador-presa')
 plt.xlabel('tiempo')
-plt.legend(loc='best')
+#plt.legend(loc='best')
 plt.grid(True)
 plt.savefig("grafico_ciclico_item_g.jpg")
 plt.show()
