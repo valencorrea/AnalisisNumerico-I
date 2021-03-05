@@ -3,13 +3,13 @@ import numpy as np
 def runge_kutta_orden4(f_1, f_2, t, x, y, h, tope_iteracion):
 
     indice = 1
-    resultado = np.zeros(shape = (tope_iteracion, 3), dtype = float)
+    resultado = np.zeros(shape = (tope_iteracion + 1, 3), dtype = float)
     resultado[0] = [t, x, y]
 
     # x -> m_n
     # y -> k_n
 
-    while indice < tope_iteracion:
+    while indice <= tope_iteracion:
         m_1 = h * f_1(t, x, y)
         k_1 = h * f_2(t, x, y)
 
