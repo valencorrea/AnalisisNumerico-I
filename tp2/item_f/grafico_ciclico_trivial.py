@@ -1,19 +1,16 @@
-from resultado_trivial import resultados
+from item_g.resultados import resultados
 import matplotlib.pyplot as plt
 
 t = resultados[:, 0]
 x = resultados[:, 1]
 y = resultados[:, 2]
 
-plt.plot(t, x, label='presa')
-plt.plot(t, y, label='depredador')
-
-plt.xlim(0, 30)
-plt.ylim(0, 7)
+plt.plot(x, y)
 
 plt.title('depredador-presa')
-plt.xlabel('tiempo')
+plt.xlabel('presa')
+plt.ylabel('depredador')
 #plt.legend(loc='best')
 plt.grid(True)
-plt.savefig("grafico_ciclico_trivial.jpg")
+plt.savefig("grafico_lissajous_trivial.jpg")
 plt.show()
