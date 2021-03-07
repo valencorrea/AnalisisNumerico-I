@@ -9,7 +9,7 @@ def runge_kutta_orden4(f_1, f_2, t, x, y, h, tope_iteracion):
     # x -> m_n
     # y -> k_n
 
-    while indice < tope_iteracion:
+    while indice <= tope_iteracion:
         m_1 = h * f_1(t, x, y)
         k_1 = h * f_2(t, x, y)
 
