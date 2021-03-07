@@ -6,7 +6,7 @@ x = resultados[:, 1]
 y = resultados[:, 2]
 
 plt.plot(x, y)
-plt.plot(0.3/0.8, 1.2/0.6, marker='o')
+plt.plot(0.8/0.3, 1.2/0.6, marker='o')
 
 plt.title('depredador-presa')
 plt.xlabel('presa')
