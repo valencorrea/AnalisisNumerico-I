@@ -1,9 +1,9 @@
-# Trabajos prácticos - Análisis numérico curso Sassano
+# Análisis numérico curso Sassano
 
 
 ## Trabajo práctico nº1
 
-Métodos de búsqueda de raices. Comparaciones de convergencia y presición grafica y analíticamente.
+Métodos de búsqueda de raices. Comparaciones de convergencia y precisión, tanto grafica como analíticamente.
 
 
 
